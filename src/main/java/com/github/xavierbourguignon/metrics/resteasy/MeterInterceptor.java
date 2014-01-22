@@ -1,4 +1,4 @@
-package com.codahale.metrics.resteasy;
+package com.github.xavierbourguignon.metrics.resteasy;
 
 import com.codahale.metrics.Meter;
 

@@ -1,4 +1,4 @@
-package com.codahale.metrics.resteasy;
+package com.github.xavierbourguignon.metrics.resteasy;
 
 import com.codahale.metrics.Meter;
 import com.codahale.metrics.MetricRegistry;
@@ -12,7 +12,6 @@ import javax.ws.rs.container.DynamicFeature;
 import javax.ws.rs.container.ResourceInfo;
 import javax.ws.rs.core.FeatureContext;
 import javax.ws.rs.ext.Provider;
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
 import static com.codahale.metrics.MetricRegistry.name;
